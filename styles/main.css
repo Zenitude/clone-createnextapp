@@ -1,0 +1,82 @@
+/* Main global */
+
+main
+{
+    flex-grow: 1;
+    max-width: 1300px;
+    min-width: 280px;
+    margin: 0 auto 50px;
+    padding: 10px;
+}
+
+/* Header Main */
+
+main header
+{
+    width: 100%;
+    margin: 20px 0 50px;
+}
+
+main header h1
+{
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+main header h1 span
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main header p
+{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+/* Section Cours */
+.cours
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Article Global */
+article
+{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/* Article Container Image */
+
+img
+{ 
+    width: 100%;
+}
+
+article div:first-child
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/* Article Container Description */
+
+article div:last-child
+{
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+}
+
+article div:last-child h2
+{
+    font-weight: 400;
+}
